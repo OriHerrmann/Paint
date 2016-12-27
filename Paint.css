@@ -1,0 +1,54 @@
+html{
+    background: lightslategray;
+
+}
+.clickable{
+
+}
+#canvas{
+    width:600px;
+    height: 596px;
+    background: white;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 10px;
+    -webkit-box-shadow: 9px 9px 15px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 9px 9px 15px -3px rgba(0,0,0,0.75);
+    box-shadow: 9px 9px 15px -3px rgba(0,0,0,0.75);
+
+
+}
+#menu{
+    width: 72px;
+    height: 101%;
+    display: inline-block;
+    background: gainsboro;
+    border-style: solid;
+
+
+}
+#menu .colour{
+
+    width:95%;
+    padding-top: 2px;
+    padding-bottom: -1px;
+    padding-left: 2px;
+    padding-right: 2px;
+    border-radius: 3%;
+
+
+}
+#menu .colour:active{
+    border-style: outset;
+}
+
+
+#canvas .colour{
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    border-radius: 60%;
+    overflow: hidden;
+    pointer-events: none;
+
+}
